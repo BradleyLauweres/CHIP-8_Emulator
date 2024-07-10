@@ -1,23 +1,26 @@
 #pragma once
 
 #include <cstdint>
+#include <SDL.h>
 
 class Chip8 {
 public:
-    Chip8();
+    Chip8(); 
+    ~Chip8();
+
     void initialize();
     void loadProgram(const char* filename);
     void emulateCycle();
     void setKeys();
 
     bool drawFlag;
+    uint8_t gfx[64 * 32];
 
 private:
     uint8_t memory[4096];
     uint8_t V[16]; 
     uint16_t I; 
     uint16_t pc; 
-    uint8_t gfx[64 * 32]; 
     uint8_t delay_timer;
     uint8_t sound_timer;
     uint16_t stack[16];
