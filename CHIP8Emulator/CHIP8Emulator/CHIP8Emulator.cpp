@@ -5,7 +5,7 @@ int main()
 {
     Chip8 chip8;
     chip8.initialize();
-    chip8.loadProgram("path_to_chip8_program.ch8");
+    chip8.loadProgram("../Games/SpaceInvaders.ch8");
 
     // Emulation loop
     for (;;) {
