@@ -14,16 +14,15 @@ public:
 
 private:
     uint8_t memory[4096];
-    uint8_t V[16]; // CPU registers
-    uint16_t I; // Index register
-    uint16_t pc; // Program counter
+    uint8_t V[16]; 
+    uint16_t I; 
+    uint16_t pc; 
     uint8_t gfx[64 * 32]; // Graphics system
     uint8_t delay_timer;
     uint8_t sound_timer;
     uint16_t stack[16];
     uint16_t sp; // Stack pointer
-    uint8_t key[16]; // Hex-based keypad
+    uint8_t key[16]; 
 
-    // Opcodes
     void decodeAndExecuteOpcode(uint16_t opcode);
 };
