@@ -61,8 +61,8 @@ int main(int argc, char* argv[]) {
 
         chip8.emulateCycle();
 
-        if (chip8.drawFlag) {
-            chip8.drawFlag = false;
+        if (chip8.DisplayHasChanged) {
+            chip8.DisplayHasChanged = false;
 
             uint32_t pixels[64 * 32];
             for (int i = 0; i < 64 * 32; ++i) {
