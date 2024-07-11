@@ -16,7 +16,7 @@ Well to be honest this project was one of the hardest projects i ever worked on 
 ## Screenshots
 I just put this here since this is what helped me 
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/BradleyLauweres/CHIP-8_Emulator/blob/main/CHIP8Emulator/Screenshots/screen.png))
+![App Screenshot](CHIP8Emulator/Screenshots/screen.png))
 
 
 ## Acknowledgements
