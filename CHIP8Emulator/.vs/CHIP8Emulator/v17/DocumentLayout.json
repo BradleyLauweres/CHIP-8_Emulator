@@ -29,12 +29,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -45,8 +41,24 @@
               "RelativeToolTip": "..\\..\\..\\Users\\Lapto\\AppData\\Local\\Temp\\TFSTemp\\vctmp17360_613293.chip8.00000000.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-11T13:44:22.999Z",
+              "WhenOpened": "2024-07-11T13:44:22.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chip8.cpp",
+              "DocumentMoniker": "C:\\C\u002B\u002B\\CHIP-8_Emulator\\CHIP8Emulator\\CHIP8Emulator\\chip8.cpp",
+              "RelativeDocumentMoniker": "CHIP8Emulator\\chip8.cpp",
+              "ToolTip": "C:\\C\u002B\u002B\\CHIP-8_Emulator\\CHIP8Emulator\\CHIP8Emulator\\chip8.cpp",
+              "RelativeToolTip": "CHIP8Emulator\\chip8.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAACAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-10T07:30:44.064Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -70,21 +82,7 @@
               "RelativeToolTip": "CHIP8Emulator\\CHIP8Emulator.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-10T07:29:18.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "chip8.cpp",
-              "DocumentMoniker": "C:\\C\u002B\u002B\\CHIP-8_Emulator\\CHIP8Emulator\\CHIP8Emulator\\chip8.cpp",
-              "RelativeDocumentMoniker": "CHIP8Emulator\\chip8.cpp",
-              "ToolTip": "C:\\C\u002B\u002B\\CHIP-8_Emulator\\CHIP8Emulator\\CHIP8Emulator\\chip8.cpp",
-              "RelativeToolTip": "CHIP8Emulator\\chip8.cpp",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAswCAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-10T07:30:44.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T07:29:18.323Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "CHIP8Emulator\\chip8.h",
               "ViewState": "AQIAAAsAAAAAAAAAAAAawBoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-10T07:30:38.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T07:30:38.396Z"
             }
           ]
         }
